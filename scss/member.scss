@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-.list {
+.member-list {
     width: 80%;
     margin: 100px auto;
     padding: 50px;
@@ -25,13 +25,13 @@
             width: 35%; /* 주문 시 요청사항 */
         }
     }
-    .list-title {
+    .member-list-title {
         height: 50px;
         border-bottom: 1px solid #999;
         font-size: 18px;
         font-weight: 700;
     }
-    .list-contents {
+    .member-list-contents {
         height: 40px;
         border-bottom: 1px solid #999;
     }

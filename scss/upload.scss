@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.upload-list {
+    display: flex;
+    flex-flow: column wrap;
+    width: 80%;
+    margin: 0 auto;
+    label {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: left;
+    }
+}
