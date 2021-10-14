@@ -1,2 +1,16 @@
 @charset "utf-8";
 
+.chart-box {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 100px auto;
+    .day-chart {
+        width: 40%
+    }
+    .total-chart {
+        width: 40%;
+    }
+}
