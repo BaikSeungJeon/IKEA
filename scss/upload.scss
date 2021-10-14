@@ -4,10 +4,22 @@
     display: flex;
     flex-flow: column wrap;
     width: 80%;
-    margin: 0 auto;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #999;
     label {
         display: flex;
         flex-flow: row wrap;
         justify-content: left;
+        margin: 30px;
+        input {
+            margin-left: 50px;
+            width: 20%;
+        }
+        select {
+            margin-left: 50px;
+            width: 5%;
+        }
+        
     }
 }

@@ -7,7 +7,10 @@
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
   width: 80%;
-  margin: 0 auto;
+  margin: 50px auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 10px 1px #999;
+          box-shadow: 1px 1px 10px 1px #999;
 }
 
 .upload-list label {
@@ -21,5 +24,16 @@
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
+  margin: 30px;
+}
+
+.upload-list label input {
+  margin-left: 50px;
+  width: 20%;
+}
+
+.upload-list label select {
+  margin-left: 50px;
+  width: 5%;
 }
 /*# sourceMappingURL=upload.css.map */
