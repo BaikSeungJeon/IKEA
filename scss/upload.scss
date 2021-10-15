@@ -11,15 +11,17 @@
     label {
         display: flex;
         flex-flow: row wrap;
-        justify-content: left;
+        justify-content: start;
         margin: 30px;
         input {
             margin-left: 50px;
             width: 30%;
+            max-width: 450px;
         }
         select {
             margin-left: 50px;
             width: 10%;
+            max-width: 150px;
         }
         
     }

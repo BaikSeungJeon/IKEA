@@ -1,10 +1,10 @@
 .upload-form { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-flow: column wrap; flex-flow: column wrap; width: 80%; margin: 100px auto; padding-bottom: 50px; border-radius: 10px; -webkit-box-shadow: 1px 1px 10px 1px #999; box-shadow: 1px 1px 10px 1px #999; }
 
-.upload-form label { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row wrap; flex-flow: row wrap; -webkit-box-pack: left; -ms-flex-pack: left; justify-content: left; margin: 30px; }
+.upload-form label { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row wrap; flex-flow: row wrap; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: start; margin: 30px; }
 
-.upload-form label input { margin-left: 50px; width: 30%; }
+.upload-form label input { margin-left: 50px; width: 30%; max-width: 450px; }
 
-.upload-form label select { margin-left: 50px; width: 10%; }
+.upload-form label select { margin-left: 50px; width: 10%; max-width: 150px; }
 
 .upload-form .upload-btn { width: 200px; height: 50px; margin: 0 auto; border-radius: 50px; border: none; background-color: #0058a3; font-size: 16px; color: #fff; -webkit-transition: .2s; transition: .2s; }
 
