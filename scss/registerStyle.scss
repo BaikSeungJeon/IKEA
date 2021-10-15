@@ -268,16 +268,3 @@ footer {
     }
   }
 }
-.click { transition: all 0.25s ease; }
-.click.focus-visible {
-  transform: translate(0, -20px);
-  font-size: 12px;
-}
-.redText { color: #E00751; font-size: 12px; display: block; }
-.hide { display: none; }
-input:focus { outline: none; }
-.focus {
-  border-bottom-color: #0058A3;
-  box-shadow: 0 1px 0 #0058A3;
-  transition: all 0.25s ease;
-}
