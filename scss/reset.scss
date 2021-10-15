@@ -14,11 +14,13 @@ a {
 body {
     margin: 0 auto;
     text-align: center;
-    min-width: 1024px;
+    min-width: 1280px;
 }
 #header {
     padding: 50px 0; /* 위 아래 padding 줌으로써 높이 생성 */
     background-color: #ddd;
+    display: flex;
+    flex-direction: column;
     .header-ui {
         width: 100%; /* width를 지정해줘야 함 */
         display: flex;
@@ -42,8 +44,25 @@ body {
             transition: .2s;
         }
         .logout:hover {
-            color: rgb(60, 122, 255);
-            border-bottom: 1px solid rgb(60, 122, 255);
+            color: #0058a3;
+            border-bottom: 1px solid #0058a3;
+        }
+    }
+    .header-gnb {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 80%;
+        margin: 50px auto 0;
+        li {
+            font-size: 18px;
+            font-weight: 700;
+            a {
+                transition: .2s;
+            }
+        }
+        li:hover a {
+            color: #fff;
         }
     }
 }

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  min-width: 1024px;
+}
+
+#header {
+  padding: 50px 0;
+  /* 위 아래 padding 줌으로써 높이 생성 */
+  background-color: #ddd;
+}
+
+#header .header-ui {
+  width: 100%;
+  /* width를 지정해줘야 함 */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#header .header-ui .back-btn img {
+  transition: .2s;
+}
+
+#header .header-ui .back-btn:hover img {
+  transform: scale(1.1);
+}
+
+#header .header-ui .title {
+  font-size: 48px;
+}
+
+#header .header-ui .logout {
+  font-weight: 700;
+  font-size: 18px;
+  transition: .2s;
+}
+
+#header .header-ui .logout:hover {
+  color: #3c7aff;
+  border-bottom: 1px solid #3c7aff;
+}
+
+#footer {
+  padding: 100px 0;
+  /* 위 아래 padding 줌으로써 footer의 높이 생성 */
+  background-color: #ddd;
+  text-align: center;
+}

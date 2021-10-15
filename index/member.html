@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="../scss/reset.css">
     <link rel="stylesheet" href="../scss/member.css">
     <title>회원관리</title>
-    <script defer src="../js/memeber.js"></script>
+    <script defer src="../js/main.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <header id="header">
@@ -25,6 +26,20 @@
                 <p>로그아웃</p>
             </a>
         </div>
+        <ul class="header-gnb">
+            <li>
+                <a href="../index/member.html">회원관리</a>
+            </li>
+            <li>
+                <a href="../index/sales.html">매출조회</a>
+            </li><li>
+                <a href="../index/upload.html">상품등록</a>
+            </li><li>
+                <a href="../index/products.html">상품목록</a>
+            </li><li>
+                <a href="#">홈으로</a>
+            </li>
+        </ul>
     </header>
 
     <div class="member-list">
@@ -36,10 +51,10 @@
                 회원이름
             </li>
             <li class="member-list-title-item">
-                배송지
+                거주지
             </li>
             <li class="member-list-title-item">
-                주문목록
+                최근 주문 목록
             </li>
             <li class="member-list-title-item">
                 주문 시 유의사항

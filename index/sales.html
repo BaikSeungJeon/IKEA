@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="../scss/reset.css">
     <link rel="stylesheet" href="../scss/sales.css">
     <title>매출조회</title>
-    <script defer src="../js/sales.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="../js/main.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- chart.js -->
 </head>
 <body>
     <header id="header">
@@ -26,14 +27,28 @@
                 <p>로그아웃</p>
             </a>
         </div>
+        <ul class="header-gnb">
+            <li>
+                <a href="../index/member.html">회원관리</a>
+            </li>
+            <li>
+                <a href="../index/sales.html">매출조회</a>
+            </li><li>
+                <a href="../index/upload.html">상품등록</a>
+            </li><li>
+                <a href="../index/products.html">상품목록</a>
+            </li><li>
+                <a href="#">홈으로</a>
+            </li>
+        </ul>
     </header>
     <div class="chart-box">
         <div class="day-chart">
             <h3>월간 매출</h3>
-            <canvas id="myChart1"></canvas>
+            <canvas id="myChart"></canvas>
         </div>
         <div class="total-chart">
-            <h3>상품 전체 매출</h3>
+            <h3>토탈 매출</h3>
             <canvas id="myChart2"></canvas>
         </div>
     </div>
