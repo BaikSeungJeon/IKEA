@@ -16,10 +16,13 @@ a {
 
 #content {
   width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  padding: 80px 50px 200px;
+  gap: 100px;
+  padding: 100px 50px 200px;
   box-sizing: border-box;
 }
 
@@ -39,6 +42,11 @@ a {
 .left p {
   font-size: 14px;
   margin-top: 10px;
+  text-align: left;
+}
+
+.left p a {
+  border-bottom: 1px solid #000;
 }
 
 .left p a {
@@ -46,13 +54,17 @@ a {
 }
 
 .img-container {
-  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
   margin-top: 50px;
 }
 
 .img-container img {
-  width: 200px;
-  height: 200px;
+  width: 45%;
+  box-sizing: border-box;
+  margin: 3px;
   border-radius: 8px;
 }
 
@@ -192,7 +204,7 @@ footer {
 }
 
 footer>.inner {
-  max-width: 1980px;
+  max-width: 1440px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -201,39 +213,40 @@ footer>.inner {
 .footer-top {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  padding-top: 20px;
-  box-sizing: border-box;
+  justify-content: space-between;
+  padding-top: 50px;
 }
 
 .footer-txt h3 {
   font-size: 18px;
+  text-align: left;
 }
 
 .footer-txt p {
-  font-size: 14px;
-  margin: 10px;
+  font-size: 12px;
+  text-align: left;
+  margin: 15px 0;
 }
 
 footer .inner button {
+  float: left;
+  font-size: 12px;
   border-radius: 50px;
   border: none;
   background-color: #000;
   color: #fff;
   font-weight: 700;
-  padding: 20px;
+  padding: 10px;
+
 }
 footer .inner button:hover {
   background-color: #555;
 }
 
-.footer-list-wrap {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 68%;
+.footer-list {
+  width: 20%;
+  box-sizing: border-box;
 }
-
 .footer-lister li {
   font-size: 14px;
   text-align: left;
@@ -246,9 +259,17 @@ footer .inner button:hover {
 
 .footer-middle {
   border-bottom: 1px solid #ddd;
-  margin-bottom: 100px;
+  padding-bottom: 20px; /* footer mid sns icon으로부터 margin */
+  margin-bottom: 20px; /* footer btm으로부터 margin */
 }
 
+.main-sns-warp {
+  display: inline-block;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  gap: 10px;
+}
 .main-sns-warp img {
   width: 30px;
   padding-top: 50px;
@@ -259,6 +280,7 @@ footer .inner button:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  color: #333;
 }
 
 .footer-contents {
@@ -272,9 +294,15 @@ footer .inner button:hover {
   font-size: 12px;
 }
 
+.footer-contents li a {
+  color: #333;
+}
+
 .footer-indent {
   font-size: 12px;
   margin: 50px 0;
+  text-align: left;
+  color: #333;
 }
 
 /* 광성 */
