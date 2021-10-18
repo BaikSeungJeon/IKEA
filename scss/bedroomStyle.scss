@@ -1,1 +1,31 @@
 @charset "utf-8";
+
+section {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 100px 0;
+    .main-content {
+        h1 {
+            font-size: 36px;
+            text-align: left;
+        }
+        .main-content-img-container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            .main-content-img {
+                width: 30%;
+                box-sizing: border-box;
+                img {
+                    width: 100%;
+                    border: 1px solid #000;
+                    margin: 30px 0;
+                }
+                p {
+                    color: #333;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
