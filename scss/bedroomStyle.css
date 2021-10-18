@@ -40,4 +40,8 @@ section .main-content .main-content-img-container .main-content-img p {
   color: #333;
   text-align: left;
 }
+
+section .main-content .main-content-img-container .main-content-img:hover p {
+  text-decoration: underline;
+}
 /*# sourceMappingURL=bedroomStyle.css.map */
