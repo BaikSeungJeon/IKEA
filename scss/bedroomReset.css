@@ -7,7 +7,7 @@
 
 * body { min-width: 1440px; text-align: center; }
 
-header { z-index: 999; }
+header { min-width: 1730px; }
 
 header .hd-top { background-color: #000; height: 40px; line-height: 40px; }
 
