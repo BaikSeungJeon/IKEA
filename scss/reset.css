@@ -16,10 +16,11 @@ a {
 body {
   margin: 0 auto;
   text-align: center;
-  min-width: 1280px;
+  min-width: 1440px;
 }
 
 #header {
+  min-width: 1440px;
   padding: 50px 0;
   /* 위 아래 padding 줌으로써 높이 생성 */
   background-color: #ddd;
