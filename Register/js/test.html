@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>test</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <link rel="stylesheet" href="./test.css">
+  <script src="./test.js" defer></script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 80%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+    }
+    
+    
+  </style>
+</head>
+<body>
+
+  <div class="test">
+    <div class="left_test">
+      <img src="../images/test/pokemon.PNG" alt="#">
+    </div>
+    <div class="right_test">
+      <p class="down">아래로 내려갑니당 ㅇㅅㅇ</p>
+      <p class="up">위로 올라갑니당 ^^7 </p>
+    </div>
+  </div>
+
+  <section class="vertical-center slider">
+    <div>
+      <img src="../images/test/main1.png">
+    </div>
+    <div>
+      <img src="../images/test/main2.jpg">
+    </div>
+    <div>
+      <img src="../images/test/main3.jpeg">
+    </div>
+    <div>
+      <img src="../images/test/main1.png">
+    </div>
+    <div>
+      <img src="../images/test/main2.jpg">
+    </div>
+    <div>
+      <img src="../images/test/main3.jpeg">
+    </div>
+  </section>
+
+  <div class="modal_test">
+    <div>
+      <img src="../images/test/ring.PNG" alt="#">
+    </div>
+    <div>
+      <p>모달 테스트 클릭해주세요!</p>
+    </div>
+  </div>
+
+  <div class="hover_test">
+    <div>
+      <img src="../images/test/animal.PNG" alt="#">
+    </div>
+    <div class="hover_testbox" id="hover_testbox">
+      <h4 class="red">New</h4>
+      <h4>APPLARYD<br>에플라뤼드</h4>
+      <p>2인용소파</p>
+      <h4>999,000</h4>
+    </div>
+    <div class="b_circle" id="b_circle">
+      <div class="w_circle"></div>
+    </div>
+  </div>
+
+  <div id="popup">
+      <div class="modal">
+          <h1>모달 테스트</h1>
+          <p>대충 침대 사진</p>
+          <button>구매하기</button>
+      </div>
+  </div>
+  
+</body>
+</html>
