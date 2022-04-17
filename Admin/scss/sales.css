@@ -1,0 +1,5 @@
+.chart-box { width: 80%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row wrap; flex-flow: row wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; gap: 50px; margin: 100px auto; }
+
+.chart-box .day-chart { width: 40%; }
+
+.chart-box .total-chart { width: 40%; }

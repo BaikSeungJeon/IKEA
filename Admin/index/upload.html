@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo.png">
+    <link rel="stylesheet" href="../scss/reset.css">
+    <link rel="stylesheet" href="../scss/upload.css">
+    <title>관리자 페이지 - 상품등록</title>
+    <script defer src="../js/main.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="header-ui">
+            <span class="back-btn">
+                <img src="https://img.icons8.com/ios-glyphs/60/000000/circled-left.png"/>
+            </span>
+            <a href="../index.html">
+                <h1 class="title">
+                    관리자 페이지 
+                </h1>
+            </a>
+            <a href="#" class="logout">
+                <p>로그아웃</p>
+            </a>
+        </div>
+        <ul class="header-gnb">
+            <li>
+                <a href="../index/member.html">회원관리</a>
+            </li>
+            <li>
+                <a href="../index/sales.html">매출조회</a>
+            </li><li>
+                <a href="../index/upload.html">상품등록</a>
+            </li><li>
+                <a href="../index/products.html">상품목록</a>
+            </li><li>
+                <a href="#">홈으로</a>
+            </li>
+        </ul>
+    </header>
+
+    <form class="upload-form" action="" name="upload" method="get" autocapitalize="on">
+        <label> <!-- for과 id가 일치하면 묶임, 근데 암시적으로 이렇게 label 태그 안에다가 묶어서 사용 가능 이게 가시성이 더 좋아 이렇게 진행 -->
+            카테고리
+            <select name="category-lg"> <!--name은 서버로 보낼 이름, category로 지정해줌 -->
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <select name="category-md"> <!--name은 서버로 보낼 이름, category로 지정해줌 -->
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <select name="category-sm"> <!--name은 서버로 보낼 이름, category로 지정해줌 -->
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </label>
+        <label>
+            상품이름
+            <input type="text" name="product-name" placeholder="상품 이름을 입력하세요.">
+        </label>
+        <label>
+            상품설명
+            <input type="text" name="product-desc" placeholder="상품 소개를 입력하세요.">
+        </label>
+        <label>
+            상품가격
+            <input type="number" name="product-price" placeholder="상품 가격을 입력하세요.(숫자만 기입)">
+        </label>
+        <label>
+            상품개수
+            <input type="number" name="product-count" placeholder="상품 개수를 입력하세요.(숫자만 기입)">
+        </label>
+        <label>
+            상품소개
+            <textarea name="product-intro" id="" cols="100" rows="20" placeholder="상품을 소개해 주세요."></textarea>
+        </label>
+        <label>
+            상품이미지
+            <input type="file" name="product-img" >
+        </label>
+
+        <label class="btn-box">
+            <button type="submit" class="upload-btn">
+                등록하기
+            </button>
+            <a href="edit.html">
+            <button type="button" class="edit-btn">
+                수정하기
+            </button>
+            </a>
+        </label>
+    </form>
+
+    <footer id="footer">
+        &copy; 2021. IKEA. All right reserved.
+    </footer>
+</body>
+</html>

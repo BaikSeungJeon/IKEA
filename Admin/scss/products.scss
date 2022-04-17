@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.products-list {
+    width: 80%;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #ccc;
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        li {
+            width: 10%;
+            text-align: left;
+            line-height: 40px; /* 세로 중간 */
+        }
+        li:nth-of-type(1) {
+            width: 5%; /* 번호 */
+        }
+        li:nth-of-type(3) {
+            width: 20%; /* 배송지 */
+        }
+        li:nth-of-type(5) {
+            width: 35%; /* 주문 시 요청사항 */
+        }
+    }
+    .products-list-title {
+        height: 50px;
+        border-bottom: 1px solid #999;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .products-list-contents {
+        height: 40px;
+        border-bottom: 1px solid #999;
+    }
+}

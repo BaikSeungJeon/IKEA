@@ -1,0 +1,16 @@
+.chart-box {
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 50px;
+  margin: 100px auto;
+}
+
+.chart-box .day-chart {
+  width: 40%;
+}
+
+.chart-box .total-chart {
+  width: 40%;
+}

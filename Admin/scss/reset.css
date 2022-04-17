@@ -1,0 +1,32 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; }
+
+li { list-style: none; }
+
+a { text-decoration: none; color: #000; }
+
+body { margin: 0 auto; text-align: center; min-width: 1440px; }
+
+#header { min-width: 1440px; padding: 50px 0; /* 위 아래 padding 줌으로써 높이 생성 */ background-color: #ddd; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+#header .header-ui { width: 100%; /* width를 지정해줘야 함 */ display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+#header .header-ui .back-btn img { -webkit-transition: .2s; transition: .2s; }
+
+#header .header-ui .back-btn:hover img { -webkit-transform: scale(1.1); transform: scale(1.1); }
+
+#header .header-ui .title { font-size: 48px; }
+
+#header .header-ui .logout { font-weight: 700; font-size: 18px; -webkit-transition: .2s; transition: .2s; }
+
+#header .header-ui .logout:hover { color: #0058a3; border-bottom: 1px solid #0058a3; }
+
+#header .header-gnb { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; width: 80%; margin: 50px auto 0; }
+
+#header .header-gnb li { font-size: 18px; font-weight: 700; }
+
+#header .header-gnb li a { -webkit-transition: .2s; transition: .2s; }
+
+#header .header-gnb li:hover a { color: #fff; }
+
+#footer { padding: 100px 0; /* 위 아래 padding 줌으로써 footer의 높이 생성 */ background-color: #ddd; text-align: center; }

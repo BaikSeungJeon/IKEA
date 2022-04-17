@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.gnb { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row wrap; flex-flow: row wrap; /* width 값을 지켜주기 위해 */ -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 0 auto; padding: 50px 0; /* header와 footer 간격 배치 */ }
+
+.gnb div { width: 33%; height: 300px; margin: 0 auto; background-color: #999; margin: 20px; /* div 박스 사방으로 20px씩 띄워놓기 */ border-radius: 10px; -webkit-transition: .2s; transition: .2s; position: relative; }
+
+.gnb div a { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+
+.gnb div a h3 { font-size: 24px; -webkit-transition: .3s; transition: .3s; }
+
+.gnb div:hover { background-color: #888; }
+
+.gnb div:hover h3 { color: #fff; }
+
+.gnb .empty { background-color: #ccc; }
+
+.gnb .empty:hover { background-color: #bbb; }

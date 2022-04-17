@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+.upload-form {
+    display: flex;
+    flex-flow: column wrap;
+    width: 80%;
+    margin: 100px auto;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #999;
+    label {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: start;
+        margin: 30px;
+        input {
+            margin-left: 50px;
+            width: 30%;
+            max-width: 450px;
+        }
+        select {
+            margin-left: 50px;
+            width: 10%;
+            max-width: 150px;
+        }
+        textarea {
+            margin-left: 50px;
+            padding: 5px;
+            font-size: 12px;
+        }
+        
+    }
+    label.btn-box {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 100px;
+        .upload-btn {
+            width: 200px;
+            height: 50px;
+            border-radius: 50px;
+            border: none;
+            background-color: #0058a3;
+            font-size: 16px;
+            color: #fff;
+            transition: .2s;
+        }
+        a {
+            width: 200px;
+            .edit-btn {
+                width: 100%;
+                height: 50px;
+                border-radius: 50px;
+                border: none;
+                background-color: #0058a3;
+                font-size: 16px;
+                color: #fff;
+                transition: .2s;
+            }
+        }
+        
+    }
+}
