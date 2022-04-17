@@ -1,0 +1,47 @@
+@charset "UTF-8";
+section {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 100px 0;
+  /* header footer와의 간격을 위한 공통 수치 */
+}
+
+section .main-content h1 {
+  font-size: 36px;
+  text-align: left;
+}
+
+section .main-content .main-content-img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 25px;
+}
+
+section .main-content .main-content-img-container .main-content-img {
+  width: 15%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section .main-content .main-content-img-container .main-content-img img {
+  width: 100%;
+  margin: 30px 0 0;
+}
+
+section .main-content .main-content-img-container .main-content-img p {
+  color: #333;
+  text-align: left;
+}
+
+section .main-content .main-content-img-container .main-content-img:hover p {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=diningMd.css.map */
